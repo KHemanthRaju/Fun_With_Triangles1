@@ -1,1 +1,3 @@
-# Fun_With_Triangles1
+# Fun with triangles 
+
+## Play with triangles
