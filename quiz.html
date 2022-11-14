@@ -62,6 +62,26 @@
             ><input type="radio" name="question3" id="" value="No" />No</label
           >
         </div>
+        <div class="question-container">
+          <p>
+            A triangle can have 
+          </p>
+          <label
+            ><input type="radio" name="question4" id="" value="one" />one right angle</label
+          ><label
+            ><input type="radio" name="question4" id="" value="two" />two right angles</label
+          >
+        </div>
+        <div class="question-container">
+          <p>
+            Which of the following can form a right angle triangle?
+          </p>
+          <label
+            ><input type="radio" name="question5" id="" value="correct" />14,15,26</label
+          ><label
+            ><input type="radio" name="question5" id="" value="wrong" />12,16,20</label
+          >
+        </div>
       </form>
     </div>
     <button id="submit" style="margin:auto;border-radius: 1rem;display:flex;justify-content: center;text-align:center;padding: 0.5rem;width: 6rem;center: pointer;background-color: lightcoral;">Submit</button>
@@ -71,7 +91,7 @@
 const submit = document.querySelector("#submit");
 const output = document.querySelector(".output");
 
-const correctAnswers = ["Scalene", "Yes", "Yes"];
+const correctAnswers = ["Scalene", "Yes", "Yes", "one", "wrong"];
 
 function checkAnswers() {
   let score = 0;
